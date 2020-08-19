@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 86f973c9f2892174db16b10550e33ead
+guid: cd10222aad8c0b446b1b9f7812bb75dc
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
@@ -9,8 +9,6 @@ ModelImporter:
     2300000: //RootNode
     3300000: //RootNode
     4300000: Pawn
-    7400000: Pawn|CircleAction
-    9500000: //RootNode
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -64,7 +62,7 @@ ModelImporter:
     secondaryUVPackMargin: 4
     useFileScale: 1
     previousCalculatedGlobalScale: 1
-    hasPreviousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -91,7 +89,7 @@ ModelImporter:
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 2
+  animationType: 0
   humanoidOversampling: 1
   additionalBone: 0
   userData: 

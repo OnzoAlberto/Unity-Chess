@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class GUIMenu : MonoBehaviour
 {
-    public static bool Pause = false;
+    public static bool Pause = true;
     
 
     public void EndGame()
@@ -19,6 +19,7 @@ public class GUIMenu : MonoBehaviour
     public void StartGame()
     {
         GameObject.Find("Main Camera").GetComponent<Animator>().SetBool("Start", true);
+        Pause = false;
     }
 
     public void LoadGame()
