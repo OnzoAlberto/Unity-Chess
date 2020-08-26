@@ -1,0 +1,159 @@
+fileFormatVersion: 2
+guid: ddecdcb94ca31944c93775e40ac343b0
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Pawn.001
+    100004: Pawn.002
+    100006: Pawn.003
+    100008: Pawn.004
+    100010: Pawn.005
+    100012: Pawn.006
+    100014: Pawn.007
+    100016: Pawn.008
+    100018: Pawn.009
+    100020: Pawn.010
+    100022: Pawn.011
+    100024: Pawn.012
+    100026: Pawn.013
+    400000: //RootNode
+    400002: Pawn.001
+    400004: Pawn.002
+    400006: Pawn.003
+    400008: Pawn.004
+    400010: Pawn.005
+    400012: Pawn.006
+    400014: Pawn.007
+    400016: Pawn.008
+    400018: Pawn.009
+    400020: Pawn.010
+    400022: Pawn.011
+    400024: Pawn.012
+    400026: Pawn.013
+    2100000: No Name
+    2300000: Pawn.001
+    2300002: Pawn.002
+    2300004: Pawn.003
+    2300006: Pawn.004
+    2300008: Pawn.005
+    2300010: Pawn.006
+    2300012: Pawn.007
+    2300014: Pawn.008
+    2300016: Pawn.009
+    2300018: Pawn.010
+    2300020: Pawn.011
+    2300022: Pawn.012
+    2300024: Pawn.013
+    3300000: Pawn.001
+    3300002: Pawn.002
+    3300004: Pawn.003
+    3300006: Pawn.004
+    3300008: Pawn.005
+    3300010: Pawn.006
+    3300012: Pawn.007
+    3300014: Pawn.008
+    3300016: Pawn.009
+    3300018: Pawn.010
+    3300020: Pawn.011
+    3300022: Pawn.012
+    3300024: Pawn.013
+    4300000: Pawn.001
+    4300002: Pawn.002
+    4300004: Pawn.003
+    4300006: Pawn.004
+    4300008: Pawn.005
+    4300010: Pawn.006
+    4300012: Pawn.007
+    4300014: Pawn.008
+    4300016: Pawn.009
+    4300018: Pawn.010
+    4300020: Pawn.011
+    4300022: Pawn.012
+    4300024: Pawn.013
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -41,13 +41,15 @@ public class manager : MonoBehaviour
                     }
                 }
                 else
-                    if (!pawnBlock(chess.transform.position.x, chess.transform.position.z + 1))
+                    if (!pawnBlock(chess.transform.position.x, chess.transform.position.z + 1) && chess.transform.position.z + 1 < 7)
                         Instantiate(cursor, new Vector3(chess.transform.position.x, 0, chess.transform.position.z + 1), Quaternion.Euler(90, 0, 0));
 
                 // eat
-                diagonalOccupated(chess.transform.position.x - 1, chess.transform.position.z + 1);
+      
+                    diagonalOccupated(chess.transform.position.x - 1, chess.transform.position.z + 1);
 
-                diagonalOccupated(chess.transform.position.x + 1, chess.transform.position.z + 1);
+                    diagonalOccupated(chess.transform.position.x + 1, chess.transform.position.z + 1);
+                
                 break;
 
             case "pawnLight":
@@ -62,14 +64,15 @@ public class manager : MonoBehaviour
                     }
                 }
                 else
-                   if (!pawnBlock(chess.transform.position.x, chess.transform.position.z - 1))
+                   if (!pawnBlock(chess.transform.position.x, chess.transform.position.z - 1) && chess.transform.position.z - 1 >0)
                         Instantiate(cursor, new Vector3(chess.transform.position.x, 0, chess.transform.position.z - 1), Quaternion.Euler(90, 0, 0));
 
                 // eat
-                diagonalOccupated(chess.transform.position.x - 1, chess.transform.position.z - 1);
+           
+                    diagonalOccupated(chess.transform.position.x - 1, chess.transform.position.z - 1);
 
-                diagonalOccupated(chess.transform.position.x + 1, chess.transform.position.z - 1);
-               
+                    diagonalOccupated(chess.transform.position.x + 1, chess.transform.position.z - 1);
+
                 break;
 
             case "tower":
@@ -256,6 +259,8 @@ public class manager : MonoBehaviour
 
     public static void diagonalOccupated(float cellx, float cellz)
     {
+
+
         var chess = GameObject.FindGameObjectsWithTag("chess");
         foreach (GameObject c in chess)
         {
@@ -273,9 +278,12 @@ public class manager : MonoBehaviour
             }
         }
     }
+
         public static bool pawnBlock(float cellx, float cellz) // si può evitare (?)
         {
-            var chess = GameObject.FindGameObjectsWithTag("chess");
+       
+
+        var chess = GameObject.FindGameObjectsWithTag("chess");
                 foreach (GameObject c in chess)
                 {
                     if (c.transform.position.x.Equals(cellx) && c.transform.position.z.Equals(cellz))
@@ -293,13 +301,19 @@ public class manager : MonoBehaviour
             {
                 if (!c.name.Contains("King"))
                 {
-                    Destroy(c);
+                    c.GetComponent<MeshRenderer>().enabled = false;
+
+                    c.transform.GetChild(0).gameObject.SetActive(true);
+                    Destroy(c, 1f);
                     PlayerPrefs.DeleteKey(c.name + "x");
                     PlayerPrefs.DeleteKey(c.name + "z");
                 }
                 else
                 {
-                    Destroy(c);
+                    c.GetComponent<MeshRenderer>().enabled = false;
+
+                    c.transform.GetChild(0).gameObject.SetActive(true);
+                    Destroy(c,1f);
                     GameObject.Find("Gui(inGame)").transform.GetChild(2).gameObject.SetActive(true);
 
                     if(c.name.Contains("Light"))
