@@ -10,14 +10,14 @@ To Do :
 
 3D model :
 
-Pawn:https://skfb.ly/6UMHY
+Pawn - https://skfb.ly/6UMHY
 
-Tower:https://skfb.ly/6UMHZ
+Tower - https://skfb.ly/6UMHZ
 
-Bishop:https://skfb.ly/6UMIn
+Bishop - https://skfb.ly/6UMIn
 
-Knight:https://skfb.ly/6UMI6
+Knight - https://skfb.ly/6UMI6
 
-Queen:https://skfb.ly/6UMIo
+Queen - https://skfb.ly/6UMIo
 
-King:https://skfb.ly/6UMIp
+King - https://skfb.ly/6UMIp
